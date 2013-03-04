@@ -1,0 +1,7 @@
+useDynLib("NHMMfdr")
+
+export("fdr.nhmm","em.hmm","em.indep","em.nhmm","forwardbackward","forwardbackward1","forwardbackward1.indep","forwardbackward1.kernel","forwardbackward1.indep.kernel","update_trans.prob.nhmm","LIS.adjust","simdata1.nhmm","simdata.nhmm","compute.A.nhmm","compute.gradient","find.nu","update_delta2")
+
+importFrom("locfdr")
+
+importFrom("MASS")
